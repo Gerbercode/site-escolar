@@ -1,0 +1,70 @@
+ 
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-size:40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  width: 40%;
+}
+
+form h2,
+#lista-alunos h2 {
+  margin-top: 0;
+  color: blue;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  color: blue;
+  border:2px solid blue;
+  border-radius: 5px;
+  
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 18px;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+#lista-alunos {
+  width: 50%;
+}
+
+#alunos-lista {
+  list-style: none;
+  padding: 0;
+  color: blue;
+}
+
+#alunos-lista li {
+  margin-bottom: 20px;
+}
+ 
